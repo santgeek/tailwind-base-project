@@ -40,16 +40,3 @@
   color: #888;
 } */
 
-.card {
-  background-color: #03A9F4; /* bg-cyan-700 */
-  border: 2px solid #032B44; /* border-2 border-b-cyan-900 */
-  border-radius: 0.5rem; /* rounded-lg */
-  padding: 1rem; /* p-4 */
-  width: auto; /* w-40 */
-  height: auto; /* h-40 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF; /* text-white */
-  font-weight: bold;
-}
