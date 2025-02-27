@@ -2,19 +2,19 @@ import "./App.css";
 
 function App() {
   return (
-    <section className="bg-cyan-600 h-[100vh] px-6 pt-5">
-      <div className="flex place-content-between pb-4">
+    <section className="bg-cyan-600 h-[100vh] w-full px-6 pt-5">
+      <div className="flex place-content-between pb-4 text-center mx-auto w-[360px] sm:w-[480px] md:w-[600px] lg:w-[720px]">
         <h3 className="font-bold text-xl">Notifications</h3>
         <p className="underline text-violet-600 cursor-pointer">
           Mark all as read
         </p>
       </div>
 
-      <div className="flex gap-5 bg-cyan-300 p-4 mb-4 rounded-2xl">
+      <div className="flex gap-5  bg-cyan-300 p-4 mb-4 rounded-2xl justify-center mx-auto shrink-0 w-[360px] sm:w-[480px] md:w-[600px] lg:w-[720px]">
         <img
           src="https://picsum.photos/200/200?random=1"
           alt="post"
-          className="rounded-full shrink-0  w-1/5 sm:w-1/5 md:w-1/5 lg:w-1/5"
+          className="rounded-full self-center aspect-square object-cover shrink-0 w-18 h-18 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40"
         />
         <div className="self-center">
           <p>
@@ -29,11 +29,11 @@ function App() {
         </div>
       </div>
 
-      <div className="flex gap-5 bg-cyan-300 p-4 mb-4 rounded-2xl">
+      <div className="flex gap-5 bg-cyan-300 p-4 mb-4 rounded-2xl justify-center mx-auto shrink-0 w-[360px] sm:w-[480px] md:w-[600px] lg:w-[720px]">
         <img
           src="https://picsum.photos/200/200?random=2"
           alt="post"
-          className="rounded-full shrink-0  w-1/5 sm:w-1/5 md:w-1/5 lg:w-1/5"
+          className="rounded-full shrink-0  w-18 h-18 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40"
         />
         <div className="self-center">
           <p>
@@ -48,11 +48,11 @@ function App() {
         </div>
       </div>
 
-      <div className="flex gap-5 bg-cyan-300 p-4 mb-4 rounded-2xl">
+      <div className="flex gap-5 bg-cyan-300 p-4 mb-4 rounded-2xl justify-center mx-auto shrink-0 w-[360px] sm:w-[480px] md:w-[600px] lg:w-[720px]">
         <img
           src="https://picsum.photos/200/200?random=3"
           alt="post"
-          className="rounded-full shrink-0  w-1/5 sm:w-1/5 md:w-1/5 lg:w-1/5"
+          className="rounded-full shrink-0  w-18 h-18 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40"
         />
         <div className="self-center">
           <p>
@@ -67,11 +67,11 @@ function App() {
         </div>
       </div>
 
-      <div className="flex gap-5 bg-cyan-300 p-4 mb-4 rounded-2xl">
+      <div className="flex gap-5 bg-cyan-300 p-4 mb-4 rounded-2xl justify-center mx-auto shrink-0 w-[360px] sm:w-[480px] md:w-[600px] lg:w-[720px]">
         <img
           src="https://picsum.photos/200/200?random=4"
           alt="post"
-          className="rounded-full shrink-0  w-1/5 sm:w-1/5 md:w-1/5 lg:w-1/5"
+          className="rounded-full shrink-0 w-18 h-18 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40"
         />
         <div className="self-center">
           <p>
