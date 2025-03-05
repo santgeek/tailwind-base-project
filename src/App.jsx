@@ -2,10 +2,10 @@ import "./App.css";
 
 function App() {
   return (
-    <section className="bg-cyan-600 h-[100vh] w-full px-6 pt-5">
+    <section className="bg-radial-[at_50%_75%] from-sky-300 via-blue-500 to-indigo-200 to-90% h-fit w-full mb-8 px-6 pt-5">
       <div className="flex place-content-between pb-4 text-center mx-auto w-[360px] sm:w-[480px] md:w-[600px] lg:w-[720px]">
-        <h3 className="font-bold text-xl">Notifications</h3>
-        <p className="underline text-violet-600 cursor-pointer">
+        <h3 className="font-bold text-xl text-indigo-900">Notifications</h3>
+        <p className="underline text-blue-700 cursor-pointer">
           Mark all as read
         </p>
       </div>
@@ -23,7 +23,7 @@ function App() {
             <span className="text-violet-800 font-black">
               My first project with React!
             </span>
-            <span className="status">*</span>
+            <span className="status not-read"></span>
           </p>
           <p className="italic text-gray-400">1m ago</p>
         </div>
