@@ -32,9 +32,11 @@ function App() {
   const handleRead = (id) => {
     setNotifications((prevNotifications) =>
       prevNotifications.map((notification) => {
-        notification.id === id
-          ? { ...notification, read: !notification.read }
-          : notification;
+        if (notification.id === id) {
+          return { ...notification, read: !notification.read };
+        } else {
+          return notification;
+        }
       })
     );
   };
@@ -46,7 +48,7 @@ function App() {
   };
 
   return (
-    <section className="bg-radial-[at_50%_75%] from-sky-300 via-blue-500 to-indigo-200 to-90% h-fit w-full mb-8 px-6 pt-5">
+    <section className="bg-radial-[at_50%_75%] from-sky-300 via-indigo-200 to-blue-500 to-90% h-lvh w-full mb-8 px-6 pt-5">
       <div className="flex place-content-between pb-4 text-center mx-auto w-[360px] sm:w-[480px] md:w-[600px] lg:w-[720px]">
         <h3 className="font-bold text-xl text-indigo-900">Notifications</h3>
         <p
@@ -75,7 +77,7 @@ function App() {
             </span>
             <span
               onClick={() => handleRead(notification.id)}
-              className={`${notification.read ? "hidden" : "not-read"}`}
+              className={`cursor-pointer ${notification.read ? "hidden" : "not-read"}`}
             ></span>
           </p>
           <p className="italic text-gray-400">1m ago</p>
